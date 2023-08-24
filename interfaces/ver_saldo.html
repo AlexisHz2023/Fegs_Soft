@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="logito.png">
+<title>FEGS</title>
+<style>
+  body {
+    background-color: #FFA500;
+    font-family: Arial, sans-serif;
+    background-image: url(img/img8.jpg);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    padding: 40px;
+    width: 500px;
+    height: 400PX;
+    text-align: center;
+  }
+  h1 {
+    color: #FFA500;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  select, input[type="text"] {
+    width: 90%;
+    padding: 15px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  select, input[type="date"] {
+    width: 90%;
+    padding: 15px;
+    border: 2px solid #000/*#ccc*/;
+    border-radius: 5px;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #000000ae;
+  }
+  select, input[type="submit"] {
+    background-color: #000;
+    color: #FFA500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+
+  .volver{
+    background-color: #000;
+    color: #FFA500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <center><img src="../img/eslogan.png" alt="img"></center>
+    <label for="tipoCedula">Tipo de Cédula:</label>
+    <select id="tipoCedula">
+      <option value="" disabled selected>Selecciona un tipo de documento</option>
+      <option value="cc">Cédula de Ciudadanía</option>
+      <option value="ti">Tarjeta de Identidad</option>
+      <option value="pasaporte">Pasaporte</option>
+      <option value="extranjeria">Cédula de Extranjería</option>
+    </select>
+    <label for="numeroDocumento">Número de Documento:</label>
+    <input type="text" id="numeroDocumento" placeholder="Ingresa tu número de documento" required>
+    <label for="numeroDocumento">fecha de nacimiento:</label>
+    <input type="date" id="numeroDocumento" placeholder="DD/MM/AA" required>
+    <a href="estadocuenta.html">
+    <input type="submit">
+  </a>
+  <a href="eleccion.html">
+  <button type="onclick" class="volver">Volver</button>
+  </a>
+ </div>
+</body>
+</html>

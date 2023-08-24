@@ -1,0 +1,90 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+h2 {
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    color: rgb(48, 48, 241);
+    
+}
+.Cuadro{
+   width: 350px;
+   padding: 10px;
+   border: 3px rgb(255, 145, 0) solid;
+   height: 450px;
+   position: relative;
+   top: -60px;
+   border-radius: 9px;
+   text-align: center;
+   font-family: sans-serif;
+
+}
+
+p{
+    position: relative;
+    top: -16px;
+    right: 37px;
+    color: rgb(255, 115, 0);
+    font-size: 25px;
+    font-family: sans-serif;
+    background-color: rgb(48, 48, 241);
+    border-radius: 10px;
+    
+
+}
+
+img {
+    position: relative;
+    top: 5px;
+    width: 200px;
+}
+
+
+
+.Seleccionar{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 130px;
+    border-radius: 15px;
+    color: rgb(48, 48, 241);
+    border-color: rgb(255, 145, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 40px;
+    font-family: sans-serif;
+}
+
+.Seleccionar_Dos{
+    position: relative;
+    top: 100px;
+    height: 50px;
+    width: 160px;
+    border-radius: 20px;
+    color: rgb(48, 48, 241);
+    border-color: rgb(255, 145, 0);
+    font-family: sans-serif;
+    font-size: 15px;
+    left: 50px;
+    font-family: sans-serif;
+}
+
+.Aceptar{
+    position: relative;
+    top: 200px;
+    text-align: center;
+    right: 80px;
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    border-color: rgb(0, 110, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 145, 0);
+    font-family: sans-serif;
+}
+
+.Aceptar:hover {
+    background-color: rgb(0, 102, 255);
+}
